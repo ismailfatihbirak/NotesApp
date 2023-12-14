@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_nav"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.notes.ui.adapter.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/action_ana_ekle_gecis"
+            app:destination="@id/eklemeFragment" />
+        <action
+            android:id="@+id/action_ana_guncelle_gecis"
+            app:destination="@id/guncelleFragment" />
+        <action
+            android:id="@+id/action_bottomsheet"
+            app:destination="@id/bottomSheetFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/eklemeFragment"
+        android:name="com.example.notes.ui.adapter.EklemeFragment"
+        android:label="fragment_ekleme"
+        tools:layout="@layout/fragment_ekleme" >
+        <action
+            android:id="@+id/action_eklemeFragment_to_anasayfaFragment"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/guncelleFragment"
+        android:name="com.example.notes.ui.adapter.GuncelleFragment"
+        android:label="fragment_guncelle"
+        tools:layout="@layout/fragment_guncelle" >
+        <action
+            android:id="@+id/action_guncelleFragment_to_anasayfaFragment"
+            app:destination="@id/anasayfaFragment" />
+        <argument
+            android:name="not"
+            app:argType="com.example.notes.data.entity.Notes" />
+    </fragment>
+    <dialog
+        android:id="@+id/bottomSheetFragment"
+        android:name="com.example.notes.ui.adapter.BottomSheetFragment"
+        android:label="fragment_bottom_sheet"
+        tools:layout="@layout/fragment_bottom_sheet" >
+        <argument
+            android:name="not"
+            app:argType="com.example.notes.data.entity.Notes" />
+    </dialog>
+</navigation>
