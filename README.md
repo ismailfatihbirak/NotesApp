@@ -4,4 +4,4 @@ Simple design note taking app
 *Dependency Injection
 *Room
 
-![ss1](https://ibb.co/175pRT8)
+![ss1](https://imgur.com/a/UDqn7hW)
