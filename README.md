@@ -3,3 +3,5 @@ Simple design note taking app
 *MVVM
 *Dependency Injection
 *Room
+
+![ss1](https://ibb.co/175pRT8)
