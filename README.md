@@ -3,7 +3,5 @@ Simple design note taking app
 *MVVM
 *Dependency Injection
 *Room
-
-
 <img src="https://i.imgur.com/JwsQkk9.jpg" alt="Açıklama" width="300">
 
