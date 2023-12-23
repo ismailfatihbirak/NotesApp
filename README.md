@@ -5,3 +5,5 @@ Simple design note taking app
 *Room
 
 ![ss1](https://i.imgur.com/JwsQkk9.jpg){width=300px height=200px}
+<img src="https://i.imgur.com/JwsQkk9.jpg" alt="Açıklama" width="300">
+
