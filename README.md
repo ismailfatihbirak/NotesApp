@@ -22,7 +22,7 @@ To run the Simple Note Taking App locally, follow these steps:
 2. Open the project in Android Studio.
 3. Build and run the app on an emulator or physical device.
 
-## Dependencies 🛠️
+## Libraries 🛠️
 
 - [Java](https://www.oracle.com/java/)
 - [MVVM](https://developer.android.com/jetpack/guide)
